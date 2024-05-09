@@ -27,7 +27,8 @@ Before you begin, ensure you have met the following requirements:
    cd bell-sftp-backup
 
 3. **Install Required Python Libraries:**
-   
+**On Linux (Global)**
+
    ```bash
    pip install paramiko pymysql
 
