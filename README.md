@@ -21,15 +21,17 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. **Clone the Repository:**
+   
    ```bash
    git clone https://github.com/yourusername/bell-sftp-backup.git
    cd bell-sftp-backup
 
-2. **Install Required Python Libraries:**
+3. **Install Required Python Libraries:**
+   
    ```bash
    pip install paramiko pymysql
 
-3. **Set up Environment Variables:**
+4. **Set up Environment Variables:**
 Create a .env file in the root directory of the project and update the following settings:
 
     ```bash
@@ -47,9 +49,10 @@ Create a .env file in the root directory of the project and update the following
     BBACKUP_SCHED_DB_NAME='dbname'
     SAVE_DATA_TO_DB=True
 
-4. **Database Setup:**
+5. **Database Setup:**
 - Log into your MariaDB/MySQL server and create a new database.
 - Execute the following SQL script to create the necessary table:
+  
     ```bash
     CREATE TABLE backup_files (
       id INT AUTO_INCREMENT PRIMARY KEY,
@@ -64,8 +67,9 @@ Create a .env file in the root directory of the project and update the following
     
 **Usage**
 To run the Bell SFTP Backup, navigate to the project directory and execute:
+
     ```bash
-    cd /root/bell_backup && python3 -m app
+   cd /root/bell_backup && python3 -m app
 
 This will initiate the backup process as configured in your .env file and database settings.
 
