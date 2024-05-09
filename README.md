@@ -68,7 +68,7 @@ Create a .env file in the root directory of the project and update the following
 **Usage**
 To run the Bell SFTP Backup, navigate to the project directory and execute:
 
-      cd /root/bell_backup && python3 -m app
+      cd /path/location/bell_sftp_backup && python3 -m app
 
 This will initiate the backup process as configured in your .env file and database settings.
 
