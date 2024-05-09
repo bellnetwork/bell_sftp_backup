@@ -31,6 +31,10 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    pip install paramiko pymysql
 
+**On Debian 12:**
+
+     pip install paramiko pymysql --break-system-packages
+
 4. **Set up Environment Variables:**
 Create a .env file in the root directory of the project and update the following settings:
 
