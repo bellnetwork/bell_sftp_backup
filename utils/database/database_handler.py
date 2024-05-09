@@ -1,8 +1,8 @@
 # Database handler.py
 
 import pymysql, json, os
-from utils.sys.sys_messages.logging import setup_custom_logging
-from utils.sys.config.transfer_config import get_config
+from utils.sys.sys_messages.logging import *
+from utils.sys.config.transfer_config import *
 
 config = get_config()
 

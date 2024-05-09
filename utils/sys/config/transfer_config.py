@@ -14,11 +14,12 @@ def get_config():
         'remote_port': int(os.getenv('REMOTE_PORT')),
         'remote_user': os.getenv('REMOTE_USERNAME'),
         'remote_passwd': os.getenv('REMOTE_PASSWORD'),
+        'remote_protocol': os.getenv('REMOTE_PROTOCOL'),
         'local_directory': os.getenv('LOCAL_DIRECTORY'),
         'remote_directory': os.getenv('REMOTE_DIRECTORY'),
         'bbackup_sched_db_host': os.getenv('BBACKUP_SCHED_DB_HOST'),
         'bbackup_sched_db_user': os.getenv('BBACKUP_SCHED_DB_USER'),
         'bbackup_sched_db_password': os.getenv('BBACKUP_SCHED_DB_PASSWORD'),
         'bbackup_sched_db_name': os.getenv('BBACKUP_SCHED_DB_NAME'),
-        'db_save_status': os.getenv('SAVE_DATA_TO_DB', 'False').lower() in ['true', '1', 't'],  # Boolean conversion here
+        'db_save_status': os.getenv('SAVE_DATA_TO_DB', 'False').lower() in ['true', '1', 't']
     }

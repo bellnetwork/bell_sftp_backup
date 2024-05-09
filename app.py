@@ -2,9 +2,9 @@
 # pip install paramiko
 
 import asyncio
-from utils.connection.create_sftp_connection import create_sftp_client
-from functions.transfer.transfer_folder import transfer_folder
-from utils.sys.sys_messages.logging import setup_custom_logging
+from utils.connection.create_sftp_connection import *
+from functions.transfer.transfer_folder import *
+from utils.sys.sys_messages.logging import *
 
 async def main():
     setup_custom_logging('info', __name__, 'Starting async file transfer process.')
