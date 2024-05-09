@@ -1,6 +1,6 @@
 # Bell SFTP Backup
 
-Bell SFTP Backup is a robust tool designed to automate the backup of files and folders through Secure File Transfer Protocol (SFTP). It ensures data safety by maintaining state across sessions, enabling resume capability after interruptions.
+Bell FTP Backup is a robust tool designed to automate the backup of files and folders through Secure File Transfer Protocol (SFTP or SCP). It ensures data safety by maintaining state across sessions, enabling resume capability after interruptions.
 
 ## Features
 
