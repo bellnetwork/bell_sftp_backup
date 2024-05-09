@@ -74,6 +74,7 @@ Create a .env file in the root directory of the project and update the following
    REMOTE_PORT = 22
    REMOTE_USERNAME = 'username'
    REMOTE_PASSWORD = 'password'
+   REMOTE_PROTOCOL='sftp' # Valid values are "sftp" or "scp"
    
    # General Configuration
    USE_RELOADER=False
